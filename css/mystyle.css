@@ -1,0 +1,70 @@
+stylesheet {
+    font-family: playfair display, serif;
+}
+
+/* Import a pretty Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Open+Sans:wght@300;400&display=swap');
+
+/* Apply baby blue background to whole page */
+body {
+    background-color: #cfefff; /* soft baby blue */
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for titles (headings) */
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #2c3e50; /* soft dark blue-gray for contrast */
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Optional: make h1 extra pretty */
+h1 {
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+
+/* Paragraph styling */
+p {
+    color: hotpink;
+    text-align: center;
+    font-size: 1.1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.center-image {
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.image-section {
+    text-align: center;
+    margin: 20px;
+}
+
+.video-section {
+    display: flex;
+    justify-content: center;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: rgb(247, 237, 99);
+}
